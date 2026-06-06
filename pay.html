@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="pay.css">
+    <link rel="icon" href="/pictures/cakehead.jpg" type="image/png" />
+</head>
+<body>
+    <header><div id="namebox">
+        <h1 id="websitename"><a href="index.html" id="home">Abdulhadi's Modern Bakery</a></h1>    
+    </div>
+    </header>
+
+    <br>
+
+    <h2 style="color: rgb(75, 30, 0); font-weight: bold; font-family: comic sans ms;">General Details</h2>
+
+    <br>
+
+    <form>
+
+    <div>
+        <label>First Name:</label>
+        <input type="text" placeholder="Only English" size="25px" required>
+    </div>
+
+        <br>
+
+    <div>
+        <label>Last Name:</label>
+        <input type="text" placeholder="Only English" size="25px" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label>Email:</label>
+        <input type="email" size="25px" required placeholder="user@example.com">
+    </div>
+
+    <br>
+
+    <div>
+        <label>Address:</label>
+        <input type="text" required size="25px">
+    </div>
+
+    <br>
+
+    <div>
+        <label>Cake type</label>
+        <select>
+            <option value="Select">Select</option>
+            <option value="Plain Cake">Plain Cake</option>
+            <option value="Cream Cake">Cream Cake</option>
+            <option value="Honey Cake">Chocolate Cake</option>
+        </select>
+    </div>
+
+    <br>
+
+    <div>
+        <label>Cake size:</label>
+        <select>
+            <option value="Select2">Select</option>
+            <option value="1lb">1lb</option>
+            <option value="2lb">2lb</option>
+        </select>
+    </div>
+
+    <br>
+
+    <div>
+        <label>Coffee Type:</label>
+        <select>
+            <option value="Select">Select</option>
+            <option value="Espresso">Espresso</option>
+        </select>
+    </div>
+    
+    <br>
+    
+    <div>
+        <label>Cake Quantity:</label>
+        <input type="number" min="0" max="32" width="50px" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label>Coffee Quantity:</label>
+        <input type="number" min="0" max="32" width="50px" required>
+    </div>
+
+    </form>
+
+    <br>
+
+    <h2 style="color: rgb(75, 30, 0); font-weight: bold; font-family: comic sans ms;">Card Details</h2>
+
+    <br>
+
+    <form>
+        
+    <div>
+        <label>Card Type:</label>
+        <select>
+            <option value="Select3">Select</option>
+            <option value="Visa">Visa</option>
+            <option value="MasterCard">MasterCard</option>
+        </select>
+    </div>
+
+    <br>
+
+        <div>
+            <label>Card Holder Name:</label>
+            <input type="text">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Card Number:</label>
+            <input type="text">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Expiry:</label>
+            <input type="date">
+        </div>
+
+        <br>
+
+        <input type="reset"><br>
+        <input type="submit">
+    </form>
+
+    <script src="pay.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+#namebox{
+    background-color: rgb(200, 100, 50);
+    font-size: 25px;
+    text-align: center;
+    height: 165px;
+    border-radius: 25px;
+    margin-top: 0%;
+}
+#websitename{
+    justify-content: center;
+    padding-bottom: 50px;
+    font-family: comic sans ms;
+    color: rgb(75, 30, 0);
+}
+body{
+    background-color: burlywood;
+}
+#websitename::first-letter{
+    font-size: 100px;
+}
+#home{
+    text-decoration: none;
+    color: rgb(75, 30, 0);
+}
+form{
+    font-size: larger;
+}
